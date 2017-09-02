@@ -504,7 +504,7 @@ p {
 }
 
 #fh5co-about {
-  background: #444853;
+  background: #000000;
 }
 #fh5co-about h2 {
   color: #fff;
@@ -518,7 +518,7 @@ p {
   }
 }
 #fh5co-about .fh5co-text .fh5co-meta {
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 12px;
@@ -526,10 +526,14 @@ p {
   margin-bottom: 20px;
   font-weight: 700;
 }
-#fh5co-about .fh5co-text.with-plus {
-  padding-right: 4em;
-  padding-left: 0;
-  position: relative;
+#fh5co-about .fh5co-text.simple {
+  color: rgba(255, 255, 255, 1);
+  /*padding-left: 4em;*/
+  letter-spacing: 2px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 @media screen and (max-width: 992px) {
   #fh5co-about .fh5co-text.with-plus {

@@ -483,7 +483,6 @@ p {
 }
 
 #fh5co-portfolio,
-#fh5co-about,
 #fh5co-contact,
 #fh5co-testimony,
 #fh5co-content {
@@ -491,7 +490,6 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-portfolio,
-  #fh5co-about,
   #fh5co-contact,
   #fh5co-testimony,
   #fh5co-content {
@@ -504,36 +502,44 @@ p {
 }
 
 #fh5co-about {
-  background: #000000;
+  background: url('../images/aboutMe.jpg') no-repeat;
+  background-size: 100%;
 }
 #fh5co-about h2 {
-  color: #fff;
+  color: #161616;
+  max-width: 50%;
+  width: 100%;
+  float: right;
+  text-align: right;
+  font-size: 3vw;
+  padding-bottom: 2%;
+  padding-right: 2%;
 }
 #fh5co-about .fh5co-text {
-  padding-left: 4em;
+  color: #161616;
+  font-size: 2vw;
+  padding-bottom: 2%;
+  padding-right: 2%;
 }
-@media screen and (max-width: 992px) {
-  #fh5co-about .fh5co-text {
-    padding: 0 0 20px 0;
-  }
+#fh5co-about .fh5co-text.simple.left {
+  padding-top: 10%;
+  max-width: 85%;
+  float: left;
+  text-align: left;
 }
-#fh5co-about .fh5co-text .fh5co-meta {
-  color: rgba(255, 255, 255, 1);
+#fh5co-about .fh5co-text.fh5co-meta {
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 12px;
-  display: block;
-  margin-bottom: 20px;
-  font-weight: 700;
+  letter-spacing: initial;
+  font-size: 1.5vw;
+  font-weight: initial;
+  max-width: 50%;
+  float: right;
+  text-align: right;
 }
-#fh5co-about .fh5co-text.simple {
-  color: rgba(255, 255, 255, 1);
-  /*padding-left: 4em;*/
-  letter-spacing: 2px;
-  font-size: 16px;
-  display: block;
-  margin-bottom: 20px;
-  font-weight: 500;
+#fh5co-about .fh5co-text.simple.right {
+  max-width: 45%;
+  float: right;
+  text-align: right;
 }
 @media screen and (max-width: 992px) {
   #fh5co-about .fh5co-text.with-plus {

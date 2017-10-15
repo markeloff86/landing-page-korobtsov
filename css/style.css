@@ -486,7 +486,8 @@ p {
 #fh5co-about,
 #fh5co-contact,
 #fh5co-testimony,
-#fh5co-content {
+#fh5co-content,
+#fh5co-why{
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
@@ -494,7 +495,8 @@ p {
   #fh5co-about,
   #fh5co-contact,
   #fh5co-testimony,
-  #fh5co-content {
+  #fh5co-content,
+  #fh5co-why{
     padding: 4em 0;
   }
 }
@@ -503,11 +505,11 @@ p {
   margin-bottom: 30px;
 }
 
-#fh5co-about {
+#fh5co-why {
   background: url(../images/custom/why_am_i.jpg);
   background-size: cover;
 }
-#fh5co-about h2 {
+#fh5co-why h2 {
   color: #fff;
 }
 #fh5co-about .fh5co-text {

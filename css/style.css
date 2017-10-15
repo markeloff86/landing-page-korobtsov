@@ -504,7 +504,8 @@ p {
 }
 
 #fh5co-about {
-  background: #444853;
+  background: url(../images/custom/why_am_i.jpg);
+  background-size: cover;
 }
 #fh5co-about h2 {
   color: #fff;

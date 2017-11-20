@@ -496,9 +496,8 @@ p {
   #fh5co-contact,
   #fh5co-testimony,
   #fh5co-content,
-  #fh5co-why{
-    padding: 4em 0;
-  }
+  #fh5co-why,
+  #fh5co-request
 }
 
 #fh5co-content figure {
@@ -545,11 +544,18 @@ p {
   text-align: right;
 }
 #fh5co-why {
+  padding: 8em 0;
   background: url(../images/custom/why_am_i.jpg);
   background-size: cover;
 }
 #fh5co-why h2 {
   color: #fff;
+}
+
+#fh5co-request {
+  padding: 5em 0;
+  background: url(../images/custom/request.jpg) no-repeat;
+  background-size: 100%;
 }
 @media screen and (max-width: 992px) {
   #fh5co-about .fh5co-text.with-plus {

@@ -487,7 +487,8 @@ p {
 #fh5co-contact,
 #fh5co-testimony,
 #fh5co-content,
-#fh5co-why{
+#fh5co-why,
+#fh5co-clients{
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
@@ -496,7 +497,8 @@ p {
   #fh5co-contact,
   #fh5co-testimony,
   #fh5co-content,
-  #fh5co-why{
+  #fh5co-why,
+  #fh5co-clients{
     padding: 4em 0;
   }
 }
@@ -668,7 +670,20 @@ p {
   box-shadow: none;
   border: 2px solid #f9ad81;
 }
-
+#fh5co-clients {
+  background: url(../images/custom/clients.jpg);
+  background-size: cover;
+  position:relative;
+}
+#fh5co-clients .fh5co-text.simple.right {
+  max-width: 48vw;
+  padding-bottom: 20vw;
+  padding-right: 2vw;
+  font-size: 2.5vw;
+  float: right;
+  text-align: center;
+  color: mintcream;
+}
 #fh5co-footer {
   background: #ececec;
   padding: 4em 0;

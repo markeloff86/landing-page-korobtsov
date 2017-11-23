@@ -504,35 +504,52 @@ p {
 #fh5co-content figure {
   margin-bottom: 30px;
 }
-
+#fh5co-about {
+  background: url('../images/custom/aboutMe.jpg') no-repeat;
+  background-size: 100%;
+}
+#fh5co-about h2 {
+  color: #161616;
+  max-width: 50%;
+  width: 100%;
+  float: right;
+  text-align: right;
+  font-size: 3vw;
+  padding-bottom: 2%;
+  padding-right: 2%;
+}
+#fh5co-about .fh5co-text {
+  color: #161616;
+  font-size: 2vw;
+  padding-bottom: 2%;
+  padding-right: 2%;
+}
+#fh5co-about .fh5co-text.simple.left {
+  padding-top: 10%;
+  max-width: 85%;
+  float: left;
+  text-align: left;
+}
+#fh5co-about .fh5co-text.fh5co-meta {
+  text-transform: uppercase;
+  letter-spacing: initial;
+  font-size: 1.5vw;
+  font-weight: initial;
+  max-width: 50%;
+  float: right;
+  text-align: right;
+}
+#fh5co-about .fh5co-text.simple.right {
+  max-width: 45%;
+  float: right;
+  text-align: right;
+}
 #fh5co-why {
   background: url(../images/custom/why_am_i.jpg);
   background-size: cover;
 }
 #fh5co-why h2 {
   color: #fff;
-}
-#fh5co-about .fh5co-text {
-  padding-left: 4em;
-}
-@media screen and (max-width: 992px) {
-  #fh5co-about .fh5co-text {
-    padding: 0 0 20px 0;
-  }
-}
-#fh5co-about .fh5co-text .fh5co-meta {
-  color: rgba(255, 255, 255, 0.2);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 12px;
-  display: block;
-  margin-bottom: 20px;
-  font-weight: 700;
-}
-#fh5co-about .fh5co-text.with-plus {
-  padding-right: 4em;
-  padding-left: 0;
-  position: relative;
 }
 @media screen and (max-width: 992px) {
   #fh5co-about .fh5co-text.with-plus {

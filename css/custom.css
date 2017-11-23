@@ -1,13 +1,34 @@
-.why-am-i-list{
+.why-am-i-list {
     margin-top: 30px
 }
+
 .clients-all-logos {
-    position:absolute;
+    position: absolute;
     bottom: 0;
     background-color: rgba(255, 255, 255, 0.5);
 }
+
 .clients-logo {
     max-width: 45vw;
     padding: 1vw 5vw;
     display: inline-block;
+}
+
+.ul {
+    list-style: none outside none;
+    padding-left: 0;
+}
+
+.gallery li {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin-bottom: 0.5vw;
+    margin-right: 0.5vw;
+    width: 20vw;
+    block-size: 13.5vw;
+}
+
+.gallery li a img {
+    max-width: 20vw;
 }

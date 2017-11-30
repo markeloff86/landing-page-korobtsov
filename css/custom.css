@@ -115,3 +115,17 @@
 .gallery li a img {
     max-width: 20vw;
 }
+.gallery-video li {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin-bottom: 0.5vw;
+    margin-right: 0.5vw;
+    width: 40vw;
+    block-size: 30vw;
+    text-align: center;
+}
+
+.gallery-video li a img {
+    max-width: 35vw;
+}

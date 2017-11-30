@@ -510,8 +510,9 @@ p {
   margin-bottom: 30px;
 }
 #fh5co-about {
-  background: url('../images/custom/aboutMe.jpg') no-repeat;
-  background-size: 100%;
+  background: url('../images/custom/aboutMe.jpg');
+  background-size: cover;
+  position: relative;
 }
 #fh5co-about h2 {
   color: #161616;

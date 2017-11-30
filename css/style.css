@@ -503,6 +503,7 @@ p {
   #fh5co-clients{
     padding: 4em 0;
   }
+  #fh5co-request
 }
 
 #fh5co-content figure {
@@ -549,11 +550,18 @@ p {
   text-align: right;
 }
 #fh5co-why {
+  padding: 8em 0;
   background: url(../images/custom/why_am_i.jpg);
   background-size: cover;
 }
 #fh5co-why h2 {
   color: #fff;
+}
+
+#fh5co-request {
+  padding: 5em 0;
+  background: url(../images/custom/request.jpg) no-repeat;
+  background-size: 100%;
 }
 @media screen and (max-width: 992px) {
   #fh5co-about .fh5co-text.with-plus {
@@ -606,7 +614,6 @@ p {
   bottom: 0;
   z-index: 3;
   opacity: .7;
-  background: #444853;
 }
 #fh5co-testimony .flexslider {
   border: transparent !important;
@@ -615,6 +622,13 @@ p {
 #fh5co-testimony .flexslider .slides li {
   font-size: 40px;
   line-height: 1.5;
+}
+#fh5co-testimony .flexslider .slides li img {
+  border: 20px solid #ffa800;
+  margin-top: 0.3em;
+  height: auto;
+  width: 4em;
+  border: 2px;
 }
 #fh5co-testimony .flexslider .slides li blockquote {
   padding-left: 0;
@@ -626,10 +640,10 @@ p {
   }
 }
 #fh5co-testimony .flexslider .slides li blockquote p {
-  font-size: 40px;
+  font-size: 1em;
   line-height: 1.5;
   font-family: "Roboto Slab", sans-serif;
-  color: white !important;
+  color: black !important;
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimony .flexslider .slides li blockquote p {
@@ -643,7 +657,7 @@ p {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(6, 6, 6, 0.7);
 }
 #fh5co-testimony .flexslider .flex-control-paging {
   position: relative;
@@ -659,7 +673,7 @@ p {
 #fh5co-testimony .flexslider .flex-control-paging li a {
   width: 14px;
   height: 14px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(9, 9, 9, 0.2);
   box-shadow: none;
   border: 2px solid transparent;
 }
@@ -706,7 +720,7 @@ p {
   margin-bottom: 10px;
 }
 #fh5co-footer .fh5co-footer-widget {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   float: left;
   width: 100%;
 }

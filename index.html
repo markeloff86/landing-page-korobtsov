@@ -88,7 +88,7 @@
                 <li><a href="#" data-nav-section="portfolio">Фото</a></li>
                 <li><a href="#" data-nav-section="contact">Видео</a></li>
                 <li><a href="#" data-nav-section="feedback">Отзывы</a></li>
-                <li><a href="#" data-nav-section="">+7(911)-002-60-92</a></li>
+                <li><a href="#" data-nav-section="request">+7(911)-002-60-92</a></li>
             </ul>
         </nav>
     </div>
@@ -103,7 +103,7 @@
             <div class="fh5co-text">
                 <div class="container">
                     <div class="row text-center">
-                        <h1 class="animate-box">Нужна надпись или нет?</h1>
+                        <h1 class="animate-box">Нужен ведущий?</h1>
                         <div class="fh5co-go animate-box">
                             <a href="#" data-nav-section="about" class="js-fh5co-next">
                                 Узнать больше
@@ -152,9 +152,34 @@
 
     <div id="fh5co-why" data-section="why">
         <div class="row">
-            <div class="col-md-6 col-md-offset-6 text-center">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-2">
+                <h2 style="font-size: 1.8em;
+                            padding: 5px 10px;
+                            margin-right: 5px;
+                            background: #1e1f1b;
+                            color: #FAF4F4;
+                            float: left;
+                            border-radius: 50% 0;
+                            font-weight: bold;
+                            margin-top: 30%;
+                            margin-left: 20px;
+                           ">Я делаю:</h2>
+                <h2 style="font-size: 1.8em;
+                            padding: 5px 10px;
+                            margin-right: 5px;
+                            background: #1e1f1b;
+                            color: #FAF4F4;
+                            float: left;
+                            border-radius: 50% 0;
+                            font-weight: bold;
+                            margin-top: 75%;
+                            margin-left: 20px;
+                           ">Я не:</h2>
+            </div>
+            <div class="col-md-4">
                 <div>
-                    <h2>Я делаю:</h2>
                     <ul class="why-am-i-list">
                         <li>Основательную подготовку</li>
                         <li>Индивидуально подхожу к празднику</li>
@@ -162,8 +187,7 @@
                         <li>Учитываю все пожелание заказчика</li>
                     </ul>
                 </div>
-                <div>
-                    <h2>Я не:</h2>
+                <div style="margin-top: 60px">
                     <ul class="why-am-i-list">
                         <li>Не провожу пошлых и старых конкурсов</li>
                         <li>Не навязываю участие в чём-либо без инициативы</li>
@@ -266,19 +290,23 @@
         </div>
     </div>
 
-		<div id="fh5co-request" data-section="request">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-6 text-center">
-					<form id="form-request" action="js/request.php" method="POST" name=" application ">
-						<input name="name" id="requestName" maxlength="15" placeholder="Введите ваше имя" required />
-						<input name="telephone" type="Tel" id="requestTelephone" maxlength="15" placeholder="Введите ваш телефон" required/>
-						<input name="celebration" id="requestCelebration" maxlength="15" placeholder="Вид мероприятия" required/>
-						<input name="requestDate" style="margin-top: 5%" type="date" id="requestDate" maxlength="15" required/>
-						<button id="requestButton" type="submit" form="form-request">Подать заявку</button>
-					</form>
-				</div>
-			</div>
-		</div>
+    <div id="fh5co-request" data-section="request">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-6 text-center">
+                <h2 class="fh5co-section-title animate-box" style="font-size: 1.5vw;">Оставить заявку</h2>
+                <form id="form-request" action="js/request.php" method="POST" name=" application ">
+                    <input name="name" id="requestName" maxlength="15" placeholder="Введите ваше имя" required/>
+                    <input name="telephone" type="Tel" id="requestTelephone" maxlength="15"
+                           placeholder="Введите ваш телефон" required/>
+                    <input name="celebration" id="requestCelebration" maxlength="15" placeholder="Вид мероприятия"
+                           required/>
+                    <input name="requestDate" style="margin-top: 5%" type="date" id="requestDate" maxlength="15"
+                           required/>
+                    <button id="requestButton" type="submit" form="form-request">Подать заявку</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <div id="fh5co-testimony"  data-stellar-background-ratio="0.5"
          data-section="feedback">

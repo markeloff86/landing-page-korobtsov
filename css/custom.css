@@ -1,5 +1,16 @@
-.why-am-i-list {
-    margin-top: 30px
+.why-am-i-list li {
+    font-size: 1em;
+    margin-right: 15px;
+    color: #313030;
+    font-weight: 400;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+
+.why-am-i-list-i-do {
+    text-align: left;
 }
 
 /* Стили формы */

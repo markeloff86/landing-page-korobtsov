@@ -52,7 +52,7 @@
 
 		$('#fh5co-testimony .flexslider').flexslider({
 			animation: "slide",
-			slideshowSpeed: 5000,
+			slideshowSpeed: 7000,
 			directionNav: false,
 			controlNav: true,
 			smoothHeight: true,

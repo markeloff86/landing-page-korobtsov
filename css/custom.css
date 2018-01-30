@@ -97,14 +97,14 @@
     display: inline-block;
 }
 
-.ul {
+.gallery {
+    text-align: center;
     list-style: none outside none;
     padding-left: 0;
 }
 
 .gallery li {
     display: inline-block;
-    float: left;
     height: auto;
     margin-bottom: 0.5vw;
     margin-right: 0.5vw;
@@ -115,15 +115,20 @@
 .gallery li a img {
     max-width: 20vw;
 }
+
+.gallery-video {
+    text-align: center;
+    list-style: none outside none;
+    padding-left: 0;
+}
+
 .gallery-video li {
     display: inline-block;
-    float: left;
     height: auto;
-    margin-bottom: 0.5vw;
+    margin-bottom: 0.5vw;   
     margin-right: 0.5vw;
     width: 40vw;
     block-size: 30vw;
-    text-align: center;
 }
 
 .gallery-video li a img {

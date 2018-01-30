@@ -1028,4 +1028,20 @@ p {
   }
 }
 
+.more-btn {
+  background-color: #afab9e;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #525652;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  opacity: .4;
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

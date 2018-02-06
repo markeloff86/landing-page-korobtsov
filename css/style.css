@@ -509,26 +509,13 @@ p {
 #fh5co-content figure {
   margin-bottom: 30px;
 }
-#fh5co-about {
-  background: url('../images/custom/aboutMe.jpg');
-  background-size: cover;
-  position: relative;
-}
-#fh5co-about h2 {
-  color: #161616;
-  max-width: 50%;
-  width: 100%;
-  float: right;
-  text-align: right;
-  font-size: 3vw;
-  padding-bottom: 2%;
-  padding-right: 2%;
-}
 #fh5co-about .fh5co-text {
   color: #161616;
   font-size: 2vw;
   padding-bottom: 2%;
   padding-right: 2%;
+  text-align: center;
+  height: 10vw;
 }
 #fh5co-about .fh5co-text.simple.left {
   padding-top: 10%;

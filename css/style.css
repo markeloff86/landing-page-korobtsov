@@ -252,6 +252,45 @@ p {
   #fh5co-header #fh5co-main-nav {
     display: none;
   }
+  .mobile-hide {
+    display: none;
+  }
+  #form-request {
+    width: auto!important;
+  }
+  #requestName, #requestCelebration, #requestTelephone, #requestButton {
+    width: 55% !important;
+    height: 10% !important;
+    background: none;
+    margin-top: 5px !important;
+    border: 1px solid #030303;
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px !important;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  #fh5co-video,
+  #fh5co-about,
+  #fh5co-contact,
+  #fh5co-testimony,
+  #fh5co-content,
+  #fh5co-why,
+  #fh5co-clients,
+  #fh5co-request,
+  #fh5co-portfolio
+  {
+    padding: 0em 0 !important;
+  }
+  #fh5co-video .r-pb {
+    padding-bottom: 0px;
+  }
+  #fh5co-po .r-pb {
+    padding-bottom: 0px;
+  }
+
 }
 #fh5co-header #fh5co-main-nav ul {
   padding: 0;
@@ -268,6 +307,9 @@ p {
   text-decoration: none;
   margin-left: 30px;
   border-bottom: 2px solid transparent;
+}
+#fh5co-header #fh5co-main-nav ul li a .mobile-hide {
+  display: none;
 }
 #fh5co-header #fh5co-main-nav ul li a:hover {
   text-decoration: none;
@@ -490,20 +532,7 @@ p {
 #fh5co-content,
 #fh5co-why,
 #fh5co-clients{
-  padding: 7em 0;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-portfolio,
-  #fh5co-video,
-  #fh5co-about,
-  #fh5co-contact,
-  #fh5co-testimony,
-  #fh5co-content,
-  #fh5co-why,
-  #fh5co-clients{
-    padding: 4em 0;
-  }
-  #fh5co-request
+  padding: 5em 0;
 }
 
 #fh5co-content figure {

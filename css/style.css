@@ -273,7 +273,6 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-video,
-  #fh5co-about,
   #fh5co-contact,
   #fh5co-testimony,
   #fh5co-content,
@@ -285,10 +284,17 @@ p {
     padding: 0em 0 !important;
   }
   #fh5co-video .r-pb {
+      padding: 0em 0 !important;
+  }
+  #fh5co-portfolio .r-pb {
     padding-bottom: 0px;
   }
-  #fh5co-po .r-pb {
-    padding-bottom: 0px;
+  #fh5co-about {
+      margin-top: 7em;
+      padding: 0em 0 !important;
+   }
+  .more-btn {
+      font-size: 45% !important;
   }
 
 }

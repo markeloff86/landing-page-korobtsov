@@ -84,10 +84,10 @@
         </div>
         <nav id="fh5co-main-nav">
             <ul>
-                <li><a href="#" data-nav-section="home">Главная</a></li>
+                <li><a href="#" data-nav-section="home" class="mobile-hide">Главная</a></li>
                 <li><a href="#" data-nav-section="about">Обо мне</a></li>
                 <li><a href="#" data-nav-section="portfolio">Фото</a></li>
-                <li><a href="#" data-nav-section="feedback">Отзывы</a></li>
+                <li><a href="#" data-nav-section="feedback" class="mobile-hide">Отзывы</a></li>
                 <li><a href="#" data-nav-section="video">Видео</a></li>
                 <li><a href="#" data-nav-section="request">+7 (911)-002-60-92</a></li>
             </ul>
@@ -96,7 +96,7 @@
 </div>
 <div id="fh5co-main">
     <div class="fh5co-overlay-mobile"></div>
-    <div id="fh5co-home" class="js-fullheight" data-section="home">
+    <div id="fh5co-home" class="js-fullheight mobile-hide" data-section="home">
 
         <div class="flexslider">
 
@@ -230,7 +230,7 @@
     </div>
 
     <div id="fh5co-testimony" data-stellar-background-ratio="0.5"
-         data-section="feedback">
+         data-section="feedback" class="mobile-hide">
         <div class="fh5co-overlay"></div>
         <div class="container">
             <div class="row">
@@ -406,11 +406,34 @@
 				</div>
 			</div>
         </div>
+<!--TODO Объединить с fh5co-about (тикет "Реализация страницы "Обо мне" ver 2.0")-->
+    <div id="fh5co-clients" data-section="clients" class="mobile-hide">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-6 text-right section-heading">
+                <h2 class="fh5co-text simple right">Компании, которые доверили мне свой праздник</h2>
+            </div>
+        </div>
+        <div class="col-md-12 clients-all-logos text-center">
+            <figure class="animate-box clients-logo">
+                <img src="images/custom/logos/cocaCola.png" width="100" height="100" alt="">
+            </figure>
+            <figure class="animate-box clients-logo">
+                <img src="images/custom/logos/ginzaProject.png" width="100" height="100" alt="">
+            </figure>
+            <img src="images/custom/logos/ollisClub.png" width="100" height="100" alt="">
+            <figure class="animate-box clients-logo">
+                <img src="images/custom/logos/rostelecom.png" width="100" height="100" alt="">
+            </figure>
+            <figure class="animate-box clients-logo">
+                <img src="images/custom/logos/setlCity.png" width="100" height="100" alt="">
+            </figure>
+        </div>
+    </div>
 
     <div id="fh5co-request" data-section="request">
         <div class="row">
             <div class="col-md-6 col-md-offset-6 text-center">
-                <form id="form-request" action="js/request.php" method="POST" name=" application ">
+                <form id="form-request" action="js/request.php" method="POST" name=" application " class="mobile-request">
                     <input name="name" id="requestName" maxlength="15" placeholder="Введите ваше имя" required/>
                     <input name="telephone" type="Tel" id="requestTelephone" maxlength="15"
                            placeholder="Введите ваш телефон" required/>

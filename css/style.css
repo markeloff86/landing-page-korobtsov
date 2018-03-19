@@ -672,6 +672,7 @@ p {
   }
 }
 #fh5co-testimony .flexslider .slides li blockquote p cite {
+  display: block;
   padding-top: 20px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -682,11 +683,11 @@ p {
   position: relative;
 }
 #fh5co-testimony .flexslider .flex-control-paging.flex-control-nav {
-  bottom: -70px;
+  bottom: auto;
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimony .flexslider .flex-control-paging.flex-control-nav {
-    bottom: -60px;
+    bottom: auto;
   }
 }
 #fh5co-testimony .flexslider .flex-control-paging li a {

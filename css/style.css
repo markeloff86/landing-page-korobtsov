@@ -683,11 +683,11 @@ p {
   position: relative;
 }
 #fh5co-testimony .flexslider .flex-control-paging.flex-control-nav {
-  bottom: -70px;
+  bottom: auto;
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimony .flexslider .flex-control-paging.flex-control-nav {
-    bottom: -60px;
+    bottom: auto;
   }
 }
 #fh5co-testimony .flexslider .flex-control-paging li a {

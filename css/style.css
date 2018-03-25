@@ -260,7 +260,7 @@ p {
     width: auto!important;
   }
   #requestName, #requestCelebration, #requestTelephone, #requestButton {
-    width: 55% !important;
+    width: 60% !important;
     height: 10% !important;
     background: none;
     margin-top: 5px !important;
@@ -582,8 +582,8 @@ p {
 
 #fh5co-request {
   padding: 5em 0;
-  background: url(../images/custom/request.jpg) no-repeat;
-  background-size: 100%;
+  background: url(../images/custom/request.png) no-repeat;
+  background-size: 40%;
 }
 @media screen and (max-width: 992px) {
   #fh5co-about .fh5co-text.with-plus {

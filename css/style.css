@@ -589,6 +589,9 @@ p {
   #fh5co-about .fh5co-text.with-plus {
     padding-right: 0;
   }
+  #fh5co-home .flexslider .fh5co-overlay {
+      position: inherit !important;
+  }
 }
 #fh5co-about .fh5co-text.with-plus:after {
   position: absolute;

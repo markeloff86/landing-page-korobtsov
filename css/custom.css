@@ -23,9 +23,9 @@
 #requestName, #requestCelebration, #requestTelephone, #requestButton {
     width: 80%;
     height: 73px;
-    background: none;
+    background: #eaeaea;
     margin-top: 25px;
-    border: 1px solid #030303;
+    border: 1px crimson;
     border-radius: 40px;
     text-align: center;
     color: #fff;

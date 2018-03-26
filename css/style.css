@@ -548,11 +548,10 @@ p {
 }
 #fh5co-about .fh5co-text {
   color: #161616;
-  font-size: 2vw;
-  padding-bottom: 2%;
-  padding-right: 2%;
-  text-align: center;
-  height: 10vw;
+  font-size: 1.4vw;
+  padding-bottom: 1vw;
+  padding-left: 2vw;
+  display: block;
 }
 #fh5co-about .fh5co-text.simple.left {
   padding-top: 10%;

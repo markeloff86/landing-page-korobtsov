@@ -86,7 +86,7 @@
 }
 
 .about-photo {
-    background: url(../images/custom/aboutMe.jpg);
+    background: url(../images/custom/aboutMe.png);
     background-size: cover;
     height: 49vw;
     left: 2vw
@@ -96,10 +96,16 @@
     text-align: center;
 }
 
-.clients-logo {
-    width: 30%;
-    padding: 1vw 5vw;
-    display: inline-block;
+.clients-logo table tr {
+    display: block;
+    height: auto;
+    padding-top: 3vw;
+    padding-bottom: 5.5vw;
+    block-size: 13.5vw;
+}
+
+.clients-logo table tr td img {
+    max-width: 10vw;
 }
 
 .gallery {

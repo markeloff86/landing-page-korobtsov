@@ -1,6 +1,6 @@
 <?php
 
-$sendto   = "markeloffds@gmail.com"; // почта, на которую будет приходить письмо
+$sendto   = "georgekorobtsov@gmail.com"; // почта, на которую будет приходить письмо
 $username = $_POST['name'];   // сохраняем в переменную данные полученные из поля c именем
 $usertel = $_POST['telephone']; // сохраняем в переменную данные полученные из поля c телефонным номером
 $usercelebration = $_POST['celebration'];
@@ -26,7 +26,7 @@ $msg .= "</body></html>";
 if(@mail($sendto, $subject, $msg, $headers)) {
     echo "<center><p>Спасибо, мы свяжемся с Вами!</p></center>";
 } else {
-    echo "<center><p>Произошла ошибка, пропробуйте еще раз!</p></center>";
+    echo "<center><p>Произошла ошибка, попробуйте еще раз!</p></center>";
 }
 
 ?>

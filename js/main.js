@@ -50,16 +50,19 @@
 
 	var sliderTestimony = function() {
 
-		$('#fh5co-testimony .flexslider').flexslider({
-			animation: "slide",
-			slideshowSpeed: 5000,
-			directionNav: false,
-			controlNav: true,
-			smoothHeight: true,
-			reverse: true
-	  	});
-
-	}
+        $('#fh5co-testimony .flexslider').flexslider({
+            animation: "fade",
+            slideshowSpeed: 7000,
+            animationSpeed: 1000,
+            directionNav: false,
+            controlNav: false,
+            smoothHeight: false,
+            reverse: true,
+            pauseOnAction: false,
+            keyboard: true,
+            touch: true,
+        });
+    };
 
 	var offcanvasMenu = function() {
 

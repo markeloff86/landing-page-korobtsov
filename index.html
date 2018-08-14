@@ -409,16 +409,14 @@
 
     <div id="fh5co-request" data-section="request">
         <div class="row">
-            <div class="col-md-6 col-md-offset-6 text-right">
-                <form id="form-request" action="js/request.php" method="POST" name=" application " class="mobile-request">
-                    <input name="name" id="requestName" maxlength="15" placeholder="Введите ваше имя" required/>
-                    <input name="telephone" type="Tel" id="requestTelephone" maxlength="15"
-                           placeholder="Введите ваш телефон" required/>
-                    <input name="celebration" id="requestCelebration" maxlength="15" placeholder="Мероприятие"
-                           required/>
-                    <input name="requestDate" style="margin-top: 5%" type="date" id="requestDate" maxlength="15"
-                           required/>
-                    <button id="requestButton" type="submit" form="form-request">Подать заявку</button>
+            <div class="col-sm-6 col-sm-offset-6 text-right">
+                <form class="decor" action="js/request.php" method="POST">
+                    <div class="form-inner">
+                        <input type="text" placeholder="Имя" name="name">
+                        <input type="number" placeholder="Телефон" name="telephone">
+                        <textarea name="celebration" placeholder="Сообщение..." rows="3"></textarea>
+                        <input type="submit" value="Отправить">
+                    </div>
                 </form>
             </div>
         </div>
@@ -476,7 +474,7 @@
 	<script src="js/initLightGallery.js"></script>
 	<script src="js/initVideoGallery.js"></script>
     </div>
-</div>
+
 </body>
 </html>
 

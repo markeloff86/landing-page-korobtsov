@@ -548,8 +548,8 @@ p {
 }
 #fh5co-about .fh5co-text {
   color: #161616;
-  font-size: 1.4vw;
-  padding-bottom: 1vw;
+  font-size: 2.5vw;
+  font-weight: 100;
   padding-left: 2vw;
   display: block;
 }

@@ -115,3 +115,26 @@
     font-size: 14px;
 }
 .form-inner textarea {resize: none;}
+
+.video-banner {
+    display: block;
+    position: relative;
+}
+
+.video-banner::after {
+    content: '';
+    display: block;
+    background-image: url(../images/video-play.png);
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: calc(50% - 32px);
+    top: calc(50% - 32px);
+    opacity: 0.75;
+}
+
+.video-banner:hover::after {
+    opacity: 1;
+}
+
+

@@ -129,21 +129,18 @@
             <div class="col-md-4 col-ms-4 col-xs-4 col-lg-4 about-photo">
             </div>
             <div class="clients-logo col-md-8 col-ms-8 col-xs-8 col-lg-8">
-                <table align="center">
-                    <tr style="height: 15vw">
-                        <td class="animate-box" valign="center"><img style="padding-left: 0.1vw" src="images/custom/logos/spbWedExpo.png" alt=""></td>
-                        <td><h2 class="animate-box fh5co-text">Участник SPB WED EXPO 2018</h2></td>
-                    </tr>
-                    <tr style="height: 15vw">
-                        <td class="animate-box" valign="center"><img style="padding-left: 0.1vw" src="images/custom/logos/rostelecom.png" alt=""></td>
-                        <td><h2 class="animate-box fh5co-text">Провёл 12 мероприятий для компании Ростелеком в 2016</h2>
-                        </td>
-                    </tr>
-                    <tr style="height: 15vw">
-                        <td class="animate-box" valign="center"><img style="padding-left: 0.1vw" src="images/custom/logos/roofMusicGroup.png" alt=""></td>
-                        <td><h2 class="animate-box fh5co-text">Официальный ведущий Roof Music Fest 2017</h2></td>
-                    </tr>
-                </table>
+                <h2 class="animate-box fh5co-text">Привет, меня зовут Георгий Коробцов, и я - ведущий
+                    мероприятий. Закончил институт культуры по специальности "Режиссура театрализованных
+                    представлений".</h2></td>
+                <h2 class="animate-box fh5co-text">Провёл более 300 мероприятий, начиная от семейной свадьбы, заканчивая
+                    громким концертом на крышах Санкт-Петербурга. Современность, ненавязчивость, уважение, понимание,
+                    чувства публики - это основные моменты, которые я использую на своих мероприятиях.</h2></td>
+                <h2 class="animate-box fh5co-text">Как мне кажется, самая главная черта при выборе ведущего - это
+                    адекватность, чтобы он был такой, какой он есть на самом деле, а не строил из себя "зажигалку",
+                    "интеллигента" или "недотрогу".</h2></td>
+                <h2 class="animate-box fh5co-text">Ну и конечно речь, эмоции, жизненные позиции, отношение и ценности
+                    должны быть близкими к тому, что Вам импонирует. Это лишь краткая информация для знакомства со мной,
+                    я всегда буду рад встречи, чтобы рассказать чуть больше.</h2></td>
             </div>
         </div>
     </div>
@@ -380,25 +377,25 @@
                         <li data-src="https://www.youtube.com/watch?v=HgAiUteTJgo"
                             data-sub-html="Частное мероприятие - Beaujolais nouveau (Винный Новый год)"
                             data-html="#video1">
-                            <a href="#">
+                            <a class="video-banner" href="#">
                                 <img src="images/custom/partyIconVideo/1preview.jpg">
                             </a>
                         </li>
                         <li data-src="https://www.youtube.com/watch?v=P_kBtu0sVG4"
                             data-sub-html="Свадьба - Алёна и Дмитрий 30.07.2017" data-html="#video2">
-                            <a href="#">
+                            <a class="video-banner" href="#">
                                 <img src="images/custom/partyIconVideo/2preview.jpg">
                             </a>
                         </li>
                         <li data-src="https://www.youtube.com/watch?v=AbCvnxgNAOY"
                             data-sub-html="Корпоратив - компания 'Русский мастер'" data-html="#video3">
-                            <a href="#">
+                            <a class="video-banner" href="#">
                                 <img src="images/custom/partyIconVideo/3preview.jpg">
                             </a>
                         </li>
                         <li data-src="https://www.youtube.com/watch?v=qDGA49LhEss"
                             data-sub-html="День рождения - компания NAWILL" data-html="#video4">
-                            <a href="#">
+                            <a class="video-banner" href="#">
                                 <img src="images/custom/partyIconVideo/4preview.jpg">
                             </a>
                         </li>
@@ -409,16 +406,14 @@
 
     <div id="fh5co-request" data-section="request">
         <div class="row">
-            <div class="col-md-6 col-md-offset-6 text-right">
-                <form id="form-request" action="js/request.php" method="POST" name=" application " class="mobile-request">
-                    <input name="name" id="requestName" maxlength="15" placeholder="Введите ваше имя" required/>
-                    <input name="telephone" type="Tel" id="requestTelephone" maxlength="15"
-                           placeholder="Введите ваш телефон" required/>
-                    <input name="celebration" id="requestCelebration" maxlength="15" placeholder="Мероприятие"
-                           required/>
-                    <input name="requestDate" style="margin-top: 5%" type="date" id="requestDate" maxlength="15"
-                           required/>
-                    <button id="requestButton" type="submit" form="form-request">Подать заявку</button>
+            <div class="col-sm-6 col-sm-offset-6 text-right">
+                <form class="decor" action="js/request.php" method="POST">
+                    <div class="form-inner">
+                        <input type="text" placeholder="Имя" name="name">
+                        <input type="number" placeholder="Телефон" name="telephone">
+                        <textarea name="celebration" placeholder="Сообщение..." rows="3"></textarea>
+                        <input type="submit" value="Отправить">
+                    </div>
                 </form>
             </div>
         </div>
@@ -476,7 +471,7 @@
 	<script src="js/initLightGallery.js"></script>
 	<script src="js/initVideoGallery.js"></script>
     </div>
-</div>
+
 </body>
 </html>
 

@@ -1,1 +1,1 @@
-Landing Page for Georgy Korobtsov
+Landing Page for Georgy Korobtsov.
